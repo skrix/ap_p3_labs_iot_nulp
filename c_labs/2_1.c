@@ -14,6 +14,5 @@ int main() {
   else
     printf("number %d is not multiple of 5\n\n", n);
 
-  system("pause");
   return 0;
 }

@@ -21,6 +21,5 @@ int main() {
   else
     printf("Value %.2f <=0 and >=-100\n", x);
 
-  system("pause");
   return 0;
 }
