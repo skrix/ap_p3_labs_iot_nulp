@@ -1,6 +1,3 @@
-// Розробіть програму, яка виконує задані обчислення
-// та виводить на екран відповідні повідомлення.
-
 // Введіть з клавіатури чотири дійсних числа, визначте
 // найбільше з них, перевірте чи більше це число за 500 чи не більше.
 #include <stdio.h>
@@ -9,8 +6,8 @@
 int main() {
   float a, b, c, d, max;
 
-  puts("Input value a, b, c:");
-  scanf("%d %d %d", &a, &b, &c);
+  puts("Input value a, b, c, d:");
+  scanf("%f %f %f %f", &a, &b, &c, &d);
 
   if (a > b && a > c && a > d)
     max = a;
@@ -22,9 +19,9 @@ int main() {
     max = d;
 
   if (max > 500)
-    printf("max=%d and its gt 500\n", max);
+    printf("max=%f and its gt 500\n", max);
   else
-    printf("max=%d and its lt 500\n", max);
+    printf("max=%f and its lt 500\n", max);
 
   return 0;
 }

@@ -7,6 +7,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 int main() {
   char s;
@@ -17,16 +18,16 @@ int main() {
 
   switch (s)
   {
-  case 'd':
+  case 'o':
     printf("Tree: Oak\n");
     break;
-  case 'k':
+  case 'm':
     printf("Tree: Maple\n");
     break;
-  case 's':
+  case 'p':
     printf("Tree: Pine\n");
     break;
-  case 'y':
+  case 's':
     printf("Tree: Spruce\n");
     break;
   default:

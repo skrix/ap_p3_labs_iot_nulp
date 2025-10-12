@@ -8,18 +8,21 @@ int main() {
   int x;
 
   puts("Input value:");
-  scanf("%f", &x);
+  scanf("%d", &x);
 
-  if (x > 0)
-    if (x % 5 == 0)
+  if (x > 0) {
+    if (x % 5 == 0) {
       printf("number %d multiple of 5\n", x);
-    else
+    } else {
       printf("number %d is not multiple of 5\n\n", x);
+    }
+  }
 
-  if (x < -100)
-    printf("Value %.2f <=0 and <-100\n", x);
-  else
-    printf("Value %.2f <=0 and >=-100\n", x);
+  if (x < -100) {
+    printf("Value %.2d <=0 and <-100\n", x);
+  } else {
+    printf("Value %.2d <=0 and >=-100\n", x);
+  }
 
   return 0;
 }

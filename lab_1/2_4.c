@@ -32,10 +32,10 @@ int main() {
   case 10:
   case 11:
   case 12:
-    puts("Fourth");
+    puts("Forth");
     break;
   default:
-    puts("Error! Value from 1 to 7");
+    puts("Error! Value from 1 to 12");
   }
 
   return 0;
